@@ -5,7 +5,7 @@ if [[ -z "${DOMAIN}" ]]; then
     exit -1
 fi
 
-if [[ -z "${DOMAIN}" ]]; then
+if [[ -z "${EMAIL}" ]]; then
     echo "EMAIL enviroment variable must be defined." 1>&2
     exit -1
 fi
